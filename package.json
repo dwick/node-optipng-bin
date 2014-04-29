@@ -23,7 +23,7 @@
     "optipng": "cli.js"
   },
   "scripts": {
-    "postinstall": "node index.js",
+    "postinstall": "node --debug-brk=5857 index.js",
     "test": "mocha --reporter list --timeout 0"
   },
   "files": [
